@@ -138,9 +138,6 @@ daily-digest/
 - [ ] **M3** — GitHub Actions deploy, secrets, auto-commit digests
 - [ ] **M4** — LLM-as-judge evals, cost dashboard, architecture polish
 
-## Why this exists
-
-Starting an AI/ML Engineer role at OMERS AI Labs and want a forcing function to keep up with the field — across AI, the broader tech industry, and the Canadian/US capital markets. Reading raw feeds doesn't scale; this does.
 
 ## License
 
