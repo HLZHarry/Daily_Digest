@@ -47,10 +47,17 @@ SOURCES = [
      "category": "finance", "region": "global", "weight": 1.1},
     {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/news/rssindex",
      "category": "finance", "region": "us", "weight": 1.0},
+    # Canada-specific additions
+    {"name": "BNN Bloomberg", "url": "https://www.bnnbloomberg.ca/rss.xml",
+     "category": "finance", "region": "canada", "weight": 1.5},
+    {"name": "CBC Business", "url": "https://www.cbc.ca/webfeed/rss/rss-business",
+     "category": "finance", "region": "canada", "weight": 1.3},
+    {"name": "Toronto Star Business", "url": "https://www.thestar.com/content/thestar/business.rss",
+     "category": "finance", "region": "canada", "weight": 1.2},
 ]
 
 # How many items per category to keep after filtering, before sending to synthesis.
-TOP_N_PER_CATEGORY = {"ai": 8, "tech": 5, "finance": 7}
+TOP_N_PER_CATEGORY = {"ai": 12, "tech": 10, "finance": 15}
 
 # Look-back window in hours.
 LOOKBACK_HOURS = 26  # 26 not 24, to absorb timezone slop and weekend gaps
